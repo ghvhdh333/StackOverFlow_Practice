@@ -1,0 +1,63 @@
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    gap: 22px;
+    box-shadow: 0 0 8px 0 #888888;
+}
+
+.logo-name {
+    font-size: 25px;
+}
+
+.logo-name-overflow {
+    font-weight: bold;
+}
+
+.about {
+    font-size: 20px;
+}
+
+.btn-log-in {
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;
+
+    color: #7CA3BF;
+    font-size: 15px;
+    background-color: #E1ECF4;
+    border: 1px solid #BBD2E1;
+}
+
+.btn-sign-up {
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;
+
+    color: #B5DEFF;
+    font-size: 15px;
+    background-color: #0A95FF;
+    border: 1px solid #81C5FF;
+}
+
+.search-container {
+    position: relative;
+}
+
+.search-input {
+    height: 40px;
+    width: 370px;
+
+    padding: 8px 32px; /* 아이콘이 들어갈 공간 확보 */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #777;
+  }

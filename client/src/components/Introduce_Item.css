@@ -1,0 +1,52 @@
+.introduce_total_container {
+    margin: 30px 100px 30px 100px;
+}
+
+.introduce_list_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.introduce_FE_container {
+    margin-bottom: 40px;
+}
+
+.introduce_field {
+    margin-bottom: 0px;
+}
+
+.introduce_list_items {
+    padding-left: 0;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.introduce_images {
+    margin: 20px 36px 20px 36px;
+    width: 170px;
+    height: 150px;
+
+    border-radius: 20px;
+}
+
+.introduce_crew_name {       
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.introduce_crew_github_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 0 10px 0;
+}
+
+.introduce_crew_github {
+    font-size: 11px;
+    color: #666666;
+}
