@@ -1,6 +1,7 @@
 import './signUpPage.css';
 
-import Header_Not_LogIn from '../../components/Header/Header_not_login/Header_not_login';
+import Header_Logging from '../../components/Header/Header_Logging/Header_Logging';
+import Header_Not_LogIn from '../../components/Header/Header_Not_LogIn/Header_Not_LogIn';
 import SignUp from '../../components/SignUp/SignUp';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

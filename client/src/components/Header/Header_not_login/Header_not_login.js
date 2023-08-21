@@ -1,4 +1,4 @@
-import './Header_not_login.css'
+import './Header_Not_LogIn.css'
 
 // fontawesome으로 아이콘을 불러온다.
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

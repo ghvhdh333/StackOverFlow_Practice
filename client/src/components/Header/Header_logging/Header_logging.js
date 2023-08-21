@@ -1,4 +1,4 @@
-import './Header_logging.css'
+import './Header_Logging.css'
 
 // fontawesome으로 아이콘을 불러온다.
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -65,22 +65,6 @@ export default function Header_Logging () {
                     <FontAwesomeIcon icon={faStackExchange} />
                 </li>
             </ul>
-
-            {/* <div className='header_logging_icons'>
-                <FontAwesomeIcon icon={faUser} />
-            </div>
-            <div className='header_logging_icons'>
-                <FontAwesomeIcon icon={faInbox} />
-            </div>
-            <div className='header_logging_icons'>
-                <FontAwesomeIcon icon={faTrophy} />
-            </div>
-            <div className='header_logging_icons'>
-                <FontAwesomeIcon icon={faCircleQuestion} />
-            </div>
-            <div className='header_logging_icons'>
-                <FontAwesomeIcon icon={faStackExchange} />
-            </div> */}
             <Link to='/members/logout'>
                 <button className='header_logging_Log_out_btn'>Log Out</button>
             </Link>

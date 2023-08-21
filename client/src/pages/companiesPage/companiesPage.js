@@ -1,7 +1,7 @@
 import './companiesPage.css';
 
-import Header_Logging from '../../components/Header/Header_logging/Header_logging';
-import Header_Not_LogIn from '../../components/Header/Header_not_login/Header_not_login';
+import Header_Logging from '../../components/Header/Header_Logging/Header_Logging';
+import Header_Not_LogIn from '../../components/Header/Header_Not_LogIn/Header_Not_LogIn';
 import Nav from '../../components/Nav/Nav';
 
 export default function CompaniesPage () {

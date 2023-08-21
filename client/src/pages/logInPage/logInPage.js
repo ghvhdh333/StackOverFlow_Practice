@@ -1,6 +1,6 @@
 import './logInPage.css';
-import Header_Not_LogIn from '../../components/Header/Header_not_login/Header_not_login';
-import LogIn from '../../components/Login/Login';
+import Header_Not_LogIn from '../../components/Header/Header_Not_LogIn/Header_Not_LogIn';
+import LogIn from '../../components/LogIn/LogIn';
 
 export default function LogInPage () {
   return (

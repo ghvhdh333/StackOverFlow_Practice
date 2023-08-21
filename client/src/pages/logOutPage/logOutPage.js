@@ -1,16 +1,16 @@
 import './logOutPage.css';
 
-import Header_Logging from '../../components/Header/Header_logging/Header_logging';
-import LogIn from '../../components/Login/Login';
+import Header_Logging from '../../components/Header/Header_Logging/Header_Logging';
+import LogOut from '../../components/LogOut/LogOut';
 
 export default function LogOutPage () {
   return (
     <>
       <Header_Logging />
-      <main className='logInPage_main_total'>
-        <form className='logInPage_Log_in_form'>
-          <LogIn />
-          logout
+      <main className='logOutPage_main_total'>
+        <form className='logOutPage_Log_in_form'>
+          <h2 className='logOutPage_h2'>Click "Log out" will log you out of the following domains on this device:</h2>
+          <LogOut />
         </form>
       </main>
     </>
