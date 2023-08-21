@@ -18,19 +18,19 @@ export default function LogIn () {
             </div>
             <div className='log_in_form_input_total'>
                 <div>
-                    <div className='log_in_form_text_email'>Email</div>
+                    <div className='log_in_form_input_title'>Email</div>
                     <input type='text' className='log_in_form_input_box'></input>
                 </div>
                 <div>
                     <div className='log_in_form_password_text_container'>
-                        <div className='log_in_form_text_password'>Password</div>
+                        <div className='log_in_form_input_title'>Password</div>
                         <div className='log_in_form_text_forgot'>Forgot password?</div>
                     </div>
                     <input type='text' className='log_in_form_input_box'></input>
                 </div>
                 <button className='log_in_form_btn'>Log in</button>
             </div>
-            <div className='log_in_form_text'>
+            <div className='log_in_form_last_text'>
                 Don't have an account?
                 <Link to='/members/signup'>
                     <span className='log_in_form_text_sign_up'>Sign up</span>
