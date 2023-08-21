@@ -24,29 +24,29 @@ export default function Header () {
     return (
         <header className='header_container'>
             <Link to='/'>
-                <div className='logo_container'>
-                    <div className='logo_img'>
+                <div className='header_logo_container'>
+                    <div className='header_logo_img'>
                         <FontAwesomeIcon icon={faStackOverflow} />
                     </div>
-                    <div className='logo_name'>
+                    <div className='header_logo_name'>
                         <span>stack</span>
-                        <span className='logo_name_overflow'>overflow</span>
+                        <span className='header_logo_name_overflow'>overflow</span>
                     </div>
                 </div>
             </Link>
             <Link to='/creators'>
-                <div className='creators'>Creators</div>
+                <div className='header_creators'>Creators</div>
             </Link>
-            <div className="search_container" onClick={searchDropdownHandler}>
-                <FontAwesomeIcon icon={faMagnifyingGlass} className='search_icon' />
-                <input type="text" className="search_input" placeholder="Search..." />
+            <div className="header_search_container" onClick={searchDropdownHandler}>
+                <FontAwesomeIcon icon={faMagnifyingGlass} className='header_search_icon' />
+                <input type="text" className="header_search_input" placeholder="Search..." />
                 {isSearchDropdownOpen ? <SearchDropdown /> : null}
             </div>
             <Link to='/members/login'>
-                <button className='btn_log_in'>Log in</button>
+                <button className='header_log_in_btn'>Log in</button>
             </Link>
             <Link to='/members/signup'>
-                <button className='btn_sign_up'>Sign up</button>
+                <button className='header_sign_up_btn'>Sign up</button>
             </Link>
         </header>
     )

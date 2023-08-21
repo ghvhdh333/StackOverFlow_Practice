@@ -15,12 +15,7 @@
     z-index: 1;
 }
 
-.bars_icon {
-    font-size: 25px;
-    color: #545454;
-}
-
-.logo_container {
+.header_logo_container {
     font-size: 25px;
     margin: 0 -8px 0 -8px;
     padding: 13px 8px 13px 8px;
@@ -30,45 +25,44 @@
     align-items: center;
 }
 
-.logo_container:hover {
+.header_logo_container:hover {
     background-color: #e0e0e0;
 }
 
-.logo_img {
+.header_logo_img {
     color: orange;
     font-size: 35px;
     padding-right: 4px;
 }
 
-a > .logo_container > .logo_name {
+a > .header_logo_container > .header_logo_name {
     color: black;
 }
 
-.logo_name_overflow {
+.header_logo_name_overflow {
     font-weight: bold;
     padding-left: 3px;
 }
 
-.creators {
+.header_creators {
     font-size: 20px;
     margin: 0 -8px 0 -8px;
     padding: 8px;
     border-radius: 20px;
 }
 
-a > .creators {
+a > .header_creators {
     color: black;
 }
 
-.creators:hover {
+.header_creators:hover {
     background-color: #e0e0e0;
 
 }
 
-.btn_log_in {
+.header_log_in_btn {
     border-radius: 10px;
-    height: 40px;
-    width: 80px;
+    padding: 12px;
 
     color: #65879f;
     font-size: 15px;
@@ -76,32 +70,31 @@ a > .creators {
     border: 1px solid #BBD2E1;
 }
 
-.btn_log_in:hover {
+.header_log_in_btn:hover {
     cursor: pointer;
     background-color: #c2d3e0;
 }
 
-.btn_sign_up {
+.header_sign_up_btn {
     border-radius: 10px;
-    height: 40px;
-    width: 80px;
+    padding: 12px;
 
-    color: #B5DEFF;
+    color: white;
     font-size: 15px;
     background-color: #0A95FF;
     border: 1px solid #81C5FF;
 }
 
-.btn_sign_up:hover {
+.header_sign_up_btn:hover {
     cursor: pointer;
     background-color: #0974c6;
 }
 
-.search_container {
+.header_search_container {
     position: relative;
 }
 
-.search_input {
+.header_search_input {
     height: 40px;
     width: 628px;  /* 1280px 기준 */
 
@@ -110,7 +103,7 @@ a > .creators {
     border-radius: 10px;
 }
   
-.search_icon {
+.header_search_icon {
     position: absolute;
     top: 50%;
     left: 10px;

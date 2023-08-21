@@ -9,6 +9,7 @@ a:hover {
 .nav_total_container {
     width: 180px;
     height: 100%vh;
+    margin-top: 70px;
     padding-top: 24px;
 
     border-right: 1px solid #ccc;

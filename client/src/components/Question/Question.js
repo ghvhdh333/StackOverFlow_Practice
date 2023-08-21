@@ -18,7 +18,7 @@ export default function Question () {
                 </div>
             </div>
             <div className='question_right_container'>
-                <h3 className='question_title'><a href='http://www.naver.com'>example question</a></h3>
+                <h3 className='question_title'><a href='http://www.naver.com'>example question (누르면 네이버로 감)</a></h3>
                 <div className='question_member'>😄 member_id 31 asked 1 min ago</div>
             </div>
         </main>

@@ -5,6 +5,7 @@
 }
 
 .helpPage_main_container {
+    margin-top: 70px;
     padding: 20px;
     flex-grow: 1;
 }
