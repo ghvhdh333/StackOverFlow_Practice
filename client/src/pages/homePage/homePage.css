@@ -1,4 +1,48 @@
 .main_container {
-    margin-left: 165px;
+    /* 사이드바 없을 때 */
+    /* margin: 0 0 0 165px;  */
+
+    /* 사이드바 있을 때 */
+    margin: 0 315px 0 165px;  
     padding: 20px;
+}
+
+.homePage_title_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.homePage_btn_ask_question {
+    border-radius: 10px;
+    padding: 10px;
+
+    color: white;
+    font-size: 16px;
+    background-color: #0A95FF;
+    border: 1px solid #81C5FF;
+
+}
+
+.homePage_btn_ask_question:hover {
+    cursor: pointer;
+    background-color: #0974c6;
+}
+
+.homePage_filter_btns_container {
+    text-align: right;
+    margin-bottom: 16px;
+}
+
+.homePage_filter_btn {
+    border: 1px solid gray;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: white;
+}
+
+.homePage_filter_btn:hover {
+    cursor: pointer;
+    background-color: #ccc;
 }

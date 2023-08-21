@@ -1,0 +1,9 @@
+.sideBar_total_container {
+    float: right;
+    width: 300px;
+    margin: 0 0 15px 15px;
+    border-radius: 4px;
+
+    border: 1px solid red;
+
+}
