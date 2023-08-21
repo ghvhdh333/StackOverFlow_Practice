@@ -1,12 +1,15 @@
 import './usersPage.css';
 
-import Header from '../../components/Header/Header';
+
+import Header_Logging from '../../components/Header/Header_logging/Header_logging';
+import Header_Not_LogIn from '../../components/Header/Header_not_login/Header_not_login';
 import Nav from '../../components/Nav/Nav';
 
 export default function UsersPage () {
     return (
         <>
-            <Header />
+            {/* <Header_Logging /> */}
+            <Header_Not_LogIn />
             <div className='usersPage_main_section_division'>
                 <Nav/>
                 <main className='usersPage_main_container'>

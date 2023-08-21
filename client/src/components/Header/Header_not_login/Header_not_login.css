@@ -1,4 +1,4 @@
-.header_container {
+.header_not_log_in_container {
     /* 스크롤을 내려도 header가 화면 상단에 고정되게 한다. */
     position: fixed;
     left: 0;
@@ -15,7 +15,7 @@
     z-index: 1;
 }
 
-.header_logo_container {
+.header_not_log_in_logo_container {
     font-size: 25px;
     margin: 0 -8px 0 -8px;
     padding: 13px 8px 13px 8px;
@@ -25,42 +25,63 @@
     align-items: center;
 }
 
-.header_logo_container:hover {
+.header_not_log_in_logo_container:hover {
     background-color: #e0e0e0;
 }
 
-.header_logo_img {
+.header_not_log_in_logo_img {
     color: orange;
     font-size: 35px;
     padding-right: 4px;
 }
 
-a > .header_logo_container > .header_logo_name {
+a > .header_not_log_in_logo_container > .header_not_log_in_logo_name {
     color: black;
 }
 
-.header_logo_name_overflow {
+.header_not_log_in_logo_name_overflow {
     font-weight: bold;
     padding-left: 3px;
 }
 
-.header_creators {
+.header_not_log_in_creators {
     font-size: 20px;
     margin: 0 -8px 0 -8px;
     padding: 8px;
     border-radius: 20px;
 }
 
-a > .header_creators {
+a > .header_not_log_in_creators {
     color: black;
 }
 
-.header_creators:hover {
+.header_not_log_in_creators:hover {
     background-color: #e0e0e0;
-
+    
 }
 
-.header_log_in_btn {
+.header_not_log_in_search_container {
+    position: relative;
+}
+
+.header_not_log_in_search_input {
+    height: 40px;
+    width: 628px;  /* 1280px 기준 */
+
+    padding: 8px 32px;   /* 돋보기 아이콘이 들어갈 공간 확보 */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+  
+.header_not_log_in_search_icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #777;
+}
+
+.header_not_log_in_log_in_btn {
     border-radius: 10px;
     padding: 12px;
 
@@ -70,12 +91,12 @@ a > .header_creators {
     border: 1px solid #BBD2E1;
 }
 
-.header_log_in_btn:hover {
+.header_not_log_in_log_in_btn:hover {
     cursor: pointer;
     background-color: #c2d3e0;
 }
 
-.header_sign_up_btn {
+.header_not_log_in_sign_up_btn {
     border-radius: 10px;
     padding: 12px;
 
@@ -85,28 +106,7 @@ a > .header_creators {
     border: 1px solid #81C5FF;
 }
 
-.header_sign_up_btn:hover {
+.header_not_log_in_sign_up_btn:hover {
     cursor: pointer;
     background-color: #0974c6;
-}
-
-.header_search_container {
-    position: relative;
-}
-
-.header_search_input {
-    height: 40px;
-    width: 628px;  /* 1280px 기준 */
-
-    padding: 8px 32px;   /* 돋보기 아이콘이 들어갈 공간 확보 */
-    border: 1px solid #ccc;
-    border-radius: 10px;
-}
-  
-.header_search_icon {
-    position: absolute;
-    top: 50%;
-    left: 10px;
-    transform: translateY(-50%);
-    color: #777;
 }

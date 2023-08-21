@@ -1,5 +1,6 @@
 import './signUpPage.css';
-import Header from "../../components/Header/Header";
+
+import Header_Not_LogIn from '../../components/Header/Header_not_login/Header_not_login';
 import SignUp from '../../components/SignUp/SignUp';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -11,7 +12,7 @@ import { faTrophy } from '@fortawesome/free-solid-svg-icons';
 export default function SignUpPage () {
   return (
     <>
-      <Header />
+      <Header_Not_LogIn />
       <main className='signUpPage_main_total'>
         <form className='signUpPage_sign_up_sections'>
           <section className='signUpPage_text_containers'>

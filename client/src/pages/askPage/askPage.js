@@ -1,12 +1,14 @@
 import './askPage.css';
 
-import Header from '../../components/Header/Header';
+import Header_Logging from '../../components/Header/Header_logging/Header_logging';
+import Header_Not_LogIn from '../../components/Header/Header_not_login/Header_not_login';
 import SideBar from '../../components/SideBar/SideBar';
 
 export default function AskPage () {
     return (
         <>
-            <Header />
+            {/* <Header_Logging /> */}
+            <Header_Not_LogIn />
             <div className='askPage_main_section_division'>
                 <main className='askPage_main_container'>
                     <div className='askPage_title_container'>

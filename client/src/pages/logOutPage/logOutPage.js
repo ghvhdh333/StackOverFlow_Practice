@@ -1,14 +1,16 @@
-import './logInPage.css';
-import Header_Not_LogIn from '../../components/Header/Header_not_login/Header_not_login';
+import './logOutPage.css';
+
+import Header_Logging from '../../components/Header/Header_logging/Header_logging';
 import LogIn from '../../components/Login/Login';
 
-export default function LogInPage () {
+export default function LogOutPage () {
   return (
     <>
-      <Header_Not_LogIn />
+      <Header_Logging />
       <main className='logInPage_main_total'>
         <form className='logInPage_Log_in_form'>
           <LogIn />
+          logout
         </form>
       </main>
     </>

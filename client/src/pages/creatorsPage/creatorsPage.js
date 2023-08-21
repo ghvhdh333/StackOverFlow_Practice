@@ -1,11 +1,13 @@
 import './creatorsPage.css';
-import Header from "../../components/Header/Header";
+import Header_Logging from '../../components/Header/Header_logging/Header_logging';
+import Header_Not_LogIn from '../../components/Header/Header_not_login/Header_not_login';
 import Creators_Item from "../../components/Creators_Item/Creators_Item";
 
 export default function CreatorsPage () {
   return (
     <>
-      <Header />
+      {/* <Header_Logging /> */}
+      <Header_Not_LogIn />
       <main className='creators_total_container'>
         <article className='creators_section_container'>
               <section className='creators_FE_container'>

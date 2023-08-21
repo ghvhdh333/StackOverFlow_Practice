@@ -1,9 +1,7 @@
 .sideBar_total_container {
-    border: 1px solid  rgb(254, 224, 125);
     width: 300px;
     height: 100%;
     margin: 94px 15px 15px 15px;
-    border-radius: 4px;
 }
 
 .sideBar_title {

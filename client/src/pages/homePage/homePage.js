@@ -1,7 +1,8 @@
 import './homePage.css';
 import { Link } from 'react-router-dom';
 
-import Header from '../../components/Header/Header';
+import Header_Logging from '../../components/Header/Header_logging/Header_logging';
+import Header_Not_LogIn from '../../components/Header/Header_not_login/Header_not_login';
 import Nav from '../../components/Nav/Nav';
 import Question from '../../components/Question/Question';
 import SideBar from '../../components/SideBar/SideBar';
@@ -9,7 +10,8 @@ import SideBar from '../../components/SideBar/SideBar';
 export default function HomePage () {
     return (
         <>
-            <Header />
+            <Header_Logging />
+            {/* <Header_Not_LogIn /> */}
             <div className='homePage_main_section_division'>
                 <Nav />
                 <main className='homePage_main_container'>

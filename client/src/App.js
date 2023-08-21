@@ -6,6 +6,7 @@ import QuestionsPage from './pages/questionsPage/questionsPage';
 import CreatorsPage from './pages/creatorsPage/creatorsPage';
 import SignUpPage from './pages/signUpPage/signUpPage';
 import LogInPage from './pages/logInPage/logInPage';
+import LogOutPage from './pages/logOutPage/logOutPage';
 
 import TagsPage from './pages/tagsPage/tagsPage';
 import UsersPage from './pages/usersPage/usersPage';
@@ -27,6 +28,7 @@ export default function App() {
 
           <Route path='/creators' element={<CreatorsPage />}/>
           <Route path='/members/login' element={<LogInPage />}/>
+          <Route path='/members/logout' element={<LogOutPage />}/>
           <Route path='/members/signup' element={<SignUpPage />}/>
 
           <Route path='/questions/ask' element={<AskPage />}/>
