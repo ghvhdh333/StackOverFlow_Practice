@@ -1,4 +1,16 @@
-.main_container {
-    margin-left: 165px;
+.companiesPage_main_section_division {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.companiesPage_main_container {
     padding: 20px;
+    flex-grow: 1;
+}
+
+.companiesPage_title_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

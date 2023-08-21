@@ -1,4 +1,16 @@
-.main_container {
-    margin-left: 165px;
+.helpPage_main_section_division {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.helpPage_main_container {
     padding: 20px;
+    flex-grow: 1;
+}
+
+.helpPage_title_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
