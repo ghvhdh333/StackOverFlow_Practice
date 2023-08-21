@@ -3,7 +3,9 @@
 }
 
 body {
-  margin: 0;
+  /* header의 공간 만큼 body에 마진값을 줘서 header와 겹치지 않게 하며,
+     기본적으로 있는 user agent stylesheet의 margin값도 제거한다. */
+  margin: 70px 0 0 0;
 }
 
 li {
