@@ -8,7 +8,7 @@ export default function LogOutPage () {
     <>
       <Header_Logging />
       <main className='logOutPage_main_total'>
-        <form className='logOutPage_Log_in_form'>
+        <form className='logOutPage_log_in_form'>
           <h2 className='logOutPage_h2'>Click "Log out" will log you out of the following domains on this device:</h2>
           <LogOut />
         </form>

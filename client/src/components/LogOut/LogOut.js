@@ -6,27 +6,18 @@ import { Link } from 'react-router-dom';
 
 export default function LogOut () {
     return (
-        <div className='log_in_form_total'>
-            <div className='log_in_form_logo_container'>
-                <Link to='/'>
-                    <FontAwesomeIcon icon={faStackOverflow} className='log_in_form_logo_icon'/>
-                </Link>
-            </div>
-
-            <div className='log_in_form_input_total'>
-                <div>
-                    <div className='log_in_form_input_title'>Email</div>
-                    <input type='text' className='log_in_form_input_box'></input>
+        <div className='log_out_form_input_total'>
+            <Link to='/'>
+                <div className='log_out_form_logo_container'>
+                    <FontAwesomeIcon icon={faStackOverflow} className='log_out_form_logo_icon'/>
+                    <div className='log_out_form_link_stackoverflow'>stackoverflow.com</div>
                 </div>
-                <div>
-                    <div className='log_in_form_password_text_container'>
-                        <div className='log_in_form_input_title'>Password</div>
-                        <div className='log_in_form_text_forgot'>Forgot password?</div>
-                    </div>
-                    <input type='text' className='log_in_form_input_box'></input>
-                </div>
-                <button className='log_in_form_btn'>Log in</button>
+            </Link>
+            <div className='log_out_form_btn_container'>
+                <button className='log_out_form_log_out_btn'>Log out</button>
+                <button className='log_out_form_cancel_btn'>Cancel</button>
             </div>
+            <div className='log_out_form_last_text'>If you're on a shared computer, remember to log out of your Open ID provider (Facebook, Google, Stack Exchange, etc.) as well.</div>
         </div>
     )
 }

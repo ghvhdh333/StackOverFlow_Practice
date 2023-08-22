@@ -12,8 +12,9 @@
 .logOutPage_h2 {
     text-align: center;
     font-weight: normal;
+    margin-bottom: 24px;
 }
 
-.logOutPage_Log_in_form {
+.logOutPage_log_in_form {
     width: 30%;
 }
