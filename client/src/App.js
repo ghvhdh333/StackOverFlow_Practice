@@ -11,9 +11,11 @@ import LogOutPage from './pages/logOutPage/logOutPage';
 import TagsPage from './pages/tagsPage/tagsPage';
 import UsersPage from './pages/usersPage/usersPage';
 import CompaniesPage from './pages/companiesPage/companiesPage';
+import MyPage_Activity from './pages/myPages/myPage_Activity';
 
 import AskPage from './pages/askPage/askPage';
 import HelpPage from './pages/helpPage/helpPage';
+
 
 export default function App() {
   return (
@@ -25,6 +27,9 @@ export default function App() {
           <Route path='/tags' element={<TagsPage />}/>
           <Route path='/users' element={<UsersPage />}/>
           <Route path='/companies' element={<CompaniesPage />}/>
+          
+          {/* 나중에 path='/member/{member_id}/{member_name}' 이렇게 해야할 듯 */}
+          <Route path='/myPage/activity' element={<MyPage_Activity />}/>
 
           <Route path='/creators' element={<CreatorsPage />}/>
           <Route path='/members/login' element={<LogInPage />}/>

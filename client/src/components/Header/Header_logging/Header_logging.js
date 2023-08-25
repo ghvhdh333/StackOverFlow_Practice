@@ -14,6 +14,7 @@ import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react'
 
 import SearchDropdown from '../../Dropdown/SearchDropdown'
+import MyPage_Activity from '../../../pages/myPages/myPage_Activity'
 
 export default function Header_Logging () {
     // Search Dropdown state 정의
@@ -49,9 +50,11 @@ export default function Header_Logging () {
             </div>
 
             <ul className='header_logging_icons_container'>
-                <li className='header_logging_icons_item' target='_blank' title='Member name'>
-                    <FontAwesomeIcon icon={faUser}/>
-                </li>
+                <Link to='/myPage/activity'>
+                    <li className='header_logging_icons_item' target='_blank' title='Member name'>
+                        <FontAwesomeIcon icon={faUser}/>
+                    </li>
+                </Link>
                 <li className='header_logging_icons_item' target='_blank' title='Recent inbox messages'>
                     <FontAwesomeIcon icon={faInbox} />
                 </li>
