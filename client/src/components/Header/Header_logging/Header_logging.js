@@ -14,7 +14,7 @@ import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react'
 
 import SearchDropdown from '../../Dropdown/SearchDropdown'
-import MyPage_Activity from '../../../pages/myPages/myPage_Activity'
+import MyPage_Activity from '../../../pages/myPages/ActivityPage/myPage_Activity'
 
 export default function Header_Logging () {
     // Search Dropdown state 정의

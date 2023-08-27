@@ -1,0 +1,23 @@
+.myPage_main_section_division {
+    display: flex;
+}
+
+.myPage_total_container {
+    margin-top: 70px;
+    padding: 24px;
+
+}
+
+.myPage_activity_h2 {
+    margin-bottom: 10px;
+}
+
+.myPage_activity_textarea {
+    width: 100%;
+    height: 150px;
+
+    padding: 8px;
+    font-size: 18px;
+    color: gray;
+    border-radius: 8px;
+}

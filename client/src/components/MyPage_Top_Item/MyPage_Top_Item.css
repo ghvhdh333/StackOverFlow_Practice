@@ -1,20 +1,10 @@
-.myPage_main_section_division {
-    display: flex;
-}
-
-.myPage_total_container {
-    margin-top: 70px;
-    padding: 24px;
-
-}
-
-.myPage_member_name_container {
+.myPage_top_item_name_container {
     display: flex;
     align-items: center;
     margin-bottom: 24px;
 }
 
-.myPage_member_name_icon {
+.myPage_top_item_name_icon {
     background-color: rgb(59, 40, 116);
     width: 128px;
     height: 128px;
@@ -29,12 +19,12 @@
     align-items: center;
 }
 
-.myPage_member_info_name_h1 {
+.myPage_top_item_info_name_h1 {
     font-weight: normal;
     margin: 0 0 12px 0;
 }
 
-.myPage_member_info {
+.myPage_top_item_info {
     margin: 0;
     padding-left: 0;
     color: gray;
@@ -43,7 +33,7 @@
     gap: 8px;
 }
 
-.myPage_member_info_icons {
+.myPage_top_item_info_icons {
     margin-right: 4px;
 }
 

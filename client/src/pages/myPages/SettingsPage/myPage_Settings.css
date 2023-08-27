@@ -1,0 +1,99 @@
+.myPage_main_section_division {
+    display: flex;
+}
+
+.myPage_total_container {
+    margin-top: 70px;
+    padding: 24px;
+
+}
+
+.myPage_settings_h2_edit {
+
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+
+.myPage_settings_h2_infomation {
+    font-weight: normal;
+}
+
+.myPage_settings_gray_box {
+    border: 1px solid #ccc;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.myPage_settings_h3_profile_image {
+    margin: 0;
+    padding-bottom: 12px;
+}
+
+.myPage_settings_change_picture_input {
+    width: 150px;
+    height: 100px;
+    border-radius: 8px 8px 0 0;
+    background-color: #ccc;
+}
+
+.myPage_settings_change_picture_btn {
+    width: 150px;
+    height: 50px;
+    border-radius: 0 0 8px 8px;
+    background-color: rgb(67, 66, 66);
+    color: white;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myPage_settings_h3_other {
+    margin-bottom: 10px;
+}
+
+.myPage_settings_textarea {
+    width: 100%;
+    height: 40px;
+    
+    padding: 8px;
+    font-size: 18px;
+    color: gray;
+    border-radius: 8px;
+}
+
+.myPage_settings_textarea_about_me {
+    width: 100%;
+    height: 150px;
+    
+    padding: 8px;
+    font-size: 18px;
+    color: gray;
+    border-radius: 8px;
+}
+
+.myPage_settings_bottom_btns_container {
+    display:  flex;
+    gap: 20px;
+}
+
+.myPage_settings_bottom_btn {
+    border-radius: 10px;
+    padding: 12px;
+    
+    color: white;
+    font-size: 15px;
+    background-color: #0A95FF;
+    border: 1px solid #81C5FF;
+
+}
+
+.myPage_settings_bottom_btn:hover {
+    cursor: pointer;
+    background-color: #0974c6;
+}
